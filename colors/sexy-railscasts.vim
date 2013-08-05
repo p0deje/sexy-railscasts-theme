@@ -27,7 +27,7 @@ let g:colors_name = "sexy-railscasts"
 hi Normal                    guifg=#E6E1DC guibg=#222222
 hi Cursor                    guibg=#FFFFFF
 hi CursorLine                guibg=#333435
-hi LineNr                    guifg=#383838 guibg=#141414
+hi LineNr                    guifg=#666666 guibg=#222222
 hi NonText                   guifg=#383838 guibg=#252525 
 hi Search                    guibg=#5A647E
 hi VertSplit                 guifg=#383838 guibg=#383838
@@ -99,3 +99,7 @@ hi link htmlTag              xmlTag
 hi link htmlTagName          xmlTagName
 hi link htmlEndTag           xmlEndTag
 
+" -----------------------------------------------------------------------------------
+" Vim Git Gutter
+" -----------------------------------------------------------------------------------
+hi SignColumn                guibg=#222222
